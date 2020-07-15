@@ -26,7 +26,7 @@ nav {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h4 {
 
 h5 {
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 32px;
+    font-size: 4rem;
 }
 
 .links {
@@ -130,6 +130,10 @@ h5 {
 .card-title {
     font-family: 'Arvo', serif;
     font-size: 36px;
+}
+
+.card-text {
+    color: white;
 }
 
 .proj {
