@@ -1,7 +1,6 @@
 body {
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-color: #b5ef2285;
+    margin-left: 300px;
 }
 
 header {
@@ -9,20 +8,68 @@ header {
     justify-content: space-between;
 }
 
-nav {
-    font-family: 'Montserrat Subrayada', sans-serif;
-    height: 4rem;
-    position: sticky;
+.sidenav {
+    background-color: #111;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    width: 300px;
+    z-index: 1;
 }
 
-h1 {
-    font-size: 3rem;
+.sidenav a {
+    color: #ebebec;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: #b6ef22;
+}
+
+.sidenav-title {
+    color: white;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+}
+
+.sidenav-pages {
+    margin-top: 100px;
+}
+
+.intro-container {
+    margin: none;
+    padding: 0rem;
+}
+
+.computer {
+    width: 100%;
+    object-fit: contain;
+}
+
+.title-container {
+    color: rgb(182,239,34);
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
 }
 
 h2 {
     display: flex;
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
     justify-content: center;
     padding: 1em;
 }
@@ -32,7 +79,7 @@ h4 {
 }
 
 h5 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 4rem;
 }
 
@@ -40,17 +87,6 @@ h5 {
     font-size: 3rem;
     display: flex;
     justify-content: space-evenly;
-}
-
-.intro-container {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    font-family: 'Arvo', serif;
-    font-weight: 200;
-    padding: 3rem;
-    text-align: center;
 }
 
 .intro {
@@ -75,7 +111,7 @@ h5 {
 }
 
 .paragraph {
-    font-family: 'Sahitya', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
 }
 
@@ -111,12 +147,17 @@ h5 {
 }
 
 .card-title {
-    font-family: 'Arvo', serif;
+    color:  rgb(182,239,34);
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
 }
 
 .card-text {
     color: white;
+}
+
+.btn {
+    background-color: rgb(182,239,34);
 }
 
 .proj {
